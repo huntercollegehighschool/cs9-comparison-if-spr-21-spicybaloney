@@ -23,3 +23,14 @@ not a month
 '''
 
 #start writing your code below
+
+month = str(input("enter a month: "))
+
+if month == "september" or month == "april" or month == "june" or month == "november":
+  print("there are 30 days in this month")
+elif month == "january" or month == "march" or month == "may" or month == "july" or month == "august" or month == "december":
+  print("there are 31 days in this month")
+elif month == "february":
+  print("there are 28-29 days in this month")
+else:
+  print("this is not a month")
